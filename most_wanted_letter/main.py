@@ -17,9 +17,15 @@ def most_wanted_letter(message):
             max_length = v
 
     if max_repeat_word != '':
-        print(max_repeat_word)
+        return f'The most popular letter is {max_repeat_word}'
     else:
-        print('There are no letters in the string')
+        return 'There are no letters in the string'
 
 
-most_wanted_letter('....Tschüüüüüüüss!...')
+print(most_wanted_letter("......HeLlo......"))
+print(most_wanted_letter("String ssss ttAAds TTTTTTT"))
+print(most_wanted_letter("!@#$%^&*(*&^%$#@@#$%^&*DFGBQQQQQQQQqqqrrrrrrrr"))
+print(most_wanted_letter("!@#$%^&*543234%^&*%$#@345677^%$#@#$%^&"))
+print(most_wanted_letter("....пррррривет..."))
+print(most_wanted_letter("....Tschüüüüüüüss!..."))
+
